@@ -1,5 +1,5 @@
 /* For mobile screens  */
-@media screen and (max-width: 576px){
+@media (max-width: 576px){
     nav , ul {
         flex-direction: column;
         align-items: center;
@@ -16,14 +16,22 @@
         gap: 1.5rem;
     }
     .sponsor-icons{
-        gap: 1rem;
-        justify-content: center;
+        gap: 0.2rem;
+        /* justify-content: center; */
     }
     .divider{
         display: none;
     }
+
+    .collection-container{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .collection-box > img{
+        width: 100%;
+    }
 }
 /* For tablets  */
-@media screen and (min-width: 576px) and (max-width: 992px){
+@media (max-width: 767px){
 
 }
