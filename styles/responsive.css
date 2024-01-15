@@ -1,0 +1,29 @@
+/* For mobile screens  */
+@media screen and (max-width: 576px){
+    nav , ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .influencer-container{
+        flex-direction: column-reverse;
+    }
+    .influencer-info{
+        width: fit-content;
+        text-align: center;
+    }
+    .sponsor-container{
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .sponsor-icons{
+        gap: 1rem;
+        justify-content: center;
+    }
+    .divider{
+        display: none;
+    }
+}
+/* For tablets  */
+@media screen and (min-width: 576px) and (max-width: 992px){
+
+}

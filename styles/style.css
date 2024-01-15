@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Manrope&family=Poppins:wght@400;700;800&display=swap');
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+/* Header section starts here  */
+header{
+    max-width: 1440px;
+    width: 85%;
+    margin: 90px auto;
+    font-family: Poppins;
+}
+
+/* nav bar  */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav > h1{
+    font-size: 1.5rem;
+}
+ul{
+    display: flex;
+    gap: 30px;
+}
+ul > li{
+    list-style: none;
+}
+ul > li > a{
+    color: #3A3A3A;
+    text-decoration: none;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+}
+
+/* Influencer section  */
+.influencer-container{
+    margin: 70px 0px;
+    display: flex;
+    justify-content: space-around;
+    gap: 8.2rem;
+}
+.influencer-info{
+    width: 40%;
+    }
+.influencer-info > h1{
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+.influencer-info > p{
+    font-size: 1rem;
+    margin: 16px 0px;
+    font-weight: 600;
+}
+.primary-btn{
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border: none;
+}
+#prebook{
+    color:#fff;
+    border-radius: 41px;
+}
+.influencer-info > .primary-btn > i{
+    margin-left: 10px;
+}
+.influencer-img{
+    background-image: url(../images/Circledesign.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.influencer-img > img{
+    width: 100%;
+}
+
+/* Sponsor container */
+.divider{
+    background-color:  rgba(192, 204, 218, 0.60);
+    border: none;
+    height: 1px;
+}
+
+.sponsor-container{
+    display: flex;
+    justify-content: center;
+    gap: 3.8rem;
+}
+.sponsor-icons{
+    display: flex;
+    gap: 3.8rem;
+}
+
+/* Header ends here */
+
+
+
